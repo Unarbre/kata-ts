@@ -2,7 +2,7 @@
   "name": "kata-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "start:dev": "nodemon -e ts --exec \"tsc && node .\"",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",

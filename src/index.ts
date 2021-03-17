@@ -1,4 +1,3 @@
-import { doggo } from "./app/doggo";
+import { Game } from "./app/game";
 
-
-doggo();
+const game = new Game;
